@@ -8,7 +8,11 @@ const Favorites = () => {
 
     // console.log(array)
     return (<>
-        <div>UserDetails</div>
+        <div>
+            <h1 className='h1'>
+                Favourites
+            </h1>
+        </div>
         <div className='container d-grid justify-content-center '>
             {array && array.map(course => { return (<CourseCard key={course.id} course={course} />) })}
         </div>

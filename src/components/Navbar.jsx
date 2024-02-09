@@ -8,10 +8,10 @@ const NavbarX = () => {
     const array = useSelector((state) => state.favoritesReducer.courses);
 
     return (<>
-        <Navbar className="bg-body-tertiary sticky-top">
+        <Navbar className="bg-body-tertiary navbar sticky-top">
             <Container>
                 <Link to={"/"}>
-                    <Navbar.Brand>Navbar with text</Navbar.Brand>
+                    <Navbar.Brand>COURSE MONK</Navbar.Brand>
                 </Link>
 
                 <span>

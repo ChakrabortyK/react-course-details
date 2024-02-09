@@ -24,6 +24,7 @@ code {
   width: 80vw;
   display: flex;
   flex-direction: row-reverse;
+  background: #483ce72a;
 }
 
 .card-details {
@@ -79,4 +80,16 @@ p {
   to {
     box-shadow: inset -3px 0px 0px transparent;
   }
+}
+
+.navbar {
+  background: #85859a8a;
+  backdrop-filter: blur(3px);
+}
+
+.btn {
+  border-radius: 100px;
+}
+.btn:hover {
+  background: #5b37cf;
 }

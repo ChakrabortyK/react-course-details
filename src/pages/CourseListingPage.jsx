@@ -15,7 +15,7 @@ const CourseListingPage = () => {
 
     return (
         <div>
-            <h2 className="mb-4">Available Courses</h2>
+            <h1 className="mb-4 h2 text-bold">Available Courses</h1>
             <div className="container d-grid justify-content-center ">
                 {array ? (array.map(course => { return (<CourseCard key={course.id} course={course} />) })) : (<>Something went wrong!</>)}
             </div>

@@ -29,8 +29,7 @@ const CourseDetails = () => {
         <div className=' container accordion' style={{ background: `url("https://dummyimage.com/350x350/a3dfe0/313ab5.jpg") no-repeat`, backgroundSize: `cover` }} >
             <div className='card' >
                 <div className='card-header'>
-                    <h2 className='mb-0 text-bold'>
-                        {thisCourse?.name}</h2>
+                    <h2 className='mb-0 h2'>{thisCourse?.name}</h2>
                 </div>
 
                 <div className='card-body'>
@@ -73,7 +72,7 @@ const CourseDetails = () => {
                     </Link>
                 </div>
             </div>
-        </div>
+        </div >
 
     );
 };
