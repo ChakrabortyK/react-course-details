@@ -5,8 +5,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toggleFavorite } from '../redux/favorites';
 
 
-
-
 const CourseDetails = () => {
 
     const { courseId } = useParams();

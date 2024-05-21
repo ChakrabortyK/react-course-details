@@ -144,14 +144,6 @@ let exampleArray = [
 ];
 
 class CourseConfigService {
-  //example to get data from appwrite
-  //   constructor() {
-  //     this.client.setEndpoint(conf.appwriteUrl).setProject(conf.projectId);
-  //     this.account = new Account(this.client);
-  //     this.databases = new Databases(this.client);
-  //     this.storage = new Storage(this.client);
-  //   }
-
   async getAllCourses() {
     return exampleArray;
   }
